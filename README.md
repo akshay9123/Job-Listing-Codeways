@@ -2,11 +2,37 @@
 
 Overview
 
-The Job Listing Web Application is a platform where users can browse and search for job opportunities. It provides an interactive and user-friendly interface for job seekers to find relevant job listings based on different filters.
+Welcome to the Job Listing Website repository! This project is a simple and user-friendly platform designed to help users browse and search for job listings. It is built using **React.js** and **CSS**, and is fully responsive.
 
 Live Demo
 
 Link :- https://job-listing-codeways.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Features
+
+- **Browse Job Listings**: View a list of available job postings.
+- **Search Functionality**: Search for jobs by title, location, or keywords.
+- **Responsive Design**: The website is optimized for both desktop and mobile devices.
+- **Easy to Use**: Intuitive user interface for seamless navigation.
+
+## Technologies Used
+
+- **Frontend**: React.js, CSS
+- **Version Control**: Git
+
+## Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+- A modern web browser (e.g., Chrome, Firefox, Safari)
+- Node.js installed on your machine
+- A package manager like npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/akshay9123/Job-Listing-Codeways.git
