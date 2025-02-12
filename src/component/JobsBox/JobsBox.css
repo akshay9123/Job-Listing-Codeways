@@ -1,0 +1,36 @@
+.jobsBox-parent{
+    width: 300px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    border: 1px solid #ddd;
+  
+    
+}
+.jobsBox-parent .desc{
+    font-size: 15px;
+    color: rgb(24, 20, 20);
+    margin-top: 10px;
+}
+.jobsBox-parent .comp{
+    font-weight: bold;
+    color: yellowgreen;
+    margin-top: 10px;
+}
+.jobsBox-parent .salary{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.jobsBox-parent .category{
+    margin-top: 10px;
+}
+.jobsBox-parent .category span{
+    font-weight: bold;
+}
+.jobsBox-parent:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(34, 48, 9, 0.15);
+    background-color:  #e7f3fe;
+}

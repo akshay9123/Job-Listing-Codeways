@@ -1,0 +1,116 @@
+.search-box-parent{
+    height: 400px;
+    background-color: red;
+    
+}
+.search-box{
+    background-image: url("../../assets/search_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(60%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.search-box .input-box{
+    position: absolute;
+    height: 50px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box .input-box input{
+    height: 100%;
+    width: 70%;
+    border-radius: 10px 0px 0px 10px ;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 3px  solid coral;
+}
+
+.search-box .input-box button{
+    height: 100%;
+    width: 30%;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 0px 10px 10px 0px;
+    background: linear-gradient(45deg, #007bff, #00c6ff);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.search-box .input-box button:hover{
+    background: linear-gradient(45deg, #0056b3, #0099cc);
+}
+.job-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    gap: 20px;
+}
+
+.jobs-field {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.load-more-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.load-more-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #007bff, #00c6ff);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.load-more-btn:hover {
+    background: linear-gradient(45deg, #0056b3, #0099cc);
+}
+
+
+
+@media (max-width: 700px) {  
+    .search-box-parent{
+        height: 250px;
+    }
+    .search-box {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .search-box .input-box {
+        width: 80%; 
+        flex-direction: row;
+    }
+
+    .search-box .input-box input {
+        width: 70%;
+        font-size: 16px;
+    }
+
+    .search-box .input-box button {
+        width: 30%;
+        font-size: 16px;
+    }
+}

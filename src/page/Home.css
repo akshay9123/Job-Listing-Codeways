@@ -1,0 +1,39 @@
+
+.home-container {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    min-height: 100vh;
+}
+  
+
+  .light-mode {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Dark Mode Styles */
+  .dark-mode {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  /* Header & Toggle Button Styles */
+  .header {
+    padding: 10px;
+    text-align: right;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .toggle-mode-btn {
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-mode-btn:hover {
+    background-color: #0056b3;
+  }
+  

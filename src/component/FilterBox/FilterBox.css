@@ -1,0 +1,17 @@
+.filter-section-parent {
+    margin-top: 20px;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.filter-section-parent select{
+    width: 250px;
+    height: 75%;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+}

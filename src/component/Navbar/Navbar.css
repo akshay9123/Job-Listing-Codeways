@@ -1,0 +1,85 @@
+.nav{
+    height: 70px;
+    background-color: lavenderblush;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav .right ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    padding-right: 25px;
+}
+
+.nav .left{
+    padding-left: 25px;
+}
+
+.response {
+    display: none;
+}
+
+
+.active-list{
+    display: none;
+}
+
+.menu-list{
+    display: block;
+}
+ul li:hover{
+    color: orangered ;
+    text-decoration: underline; 
+    text-underline-offset: 4px; 
+    cursor: pointer;
+    transition: color 0.3s ease-in-out, font-weight 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+li.active{
+    color: red;
+    transform: scale(1);
+    transform: transform 0.5s ease-in-out;
+}
+
+
+@media (max-width:700px) {
+    .response {
+        display: block;
+    }
+    
+    .response {
+        padding-right: 20px;
+    }
+    .response button{
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+    .nav .right{
+        display: none;
+        
+    }
+    
+    .mobileView-list{
+        cursor: pointer;
+        background-color: lavenderblush;
+    }
+    .mobileView-list ul{
+        margin-top: -20px;
+        padding-left: 30px;
+    }
+    .mobileView-list ul li{
+        margin-top: 20px;
+        list-style: none;
+        cursor: pointer;
+    }
+
+    
+}
